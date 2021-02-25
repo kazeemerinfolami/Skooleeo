@@ -1,0 +1,901 @@
+*{
+    margin: 0;
+}
+
+.container{
+width: 100%;
+/* max-width: 960px; */
+margin: 0 auto;
+background-color: black;
+}
+.navContainer{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.nav{
+    /* display: flex; */
+    background-color: black;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.411);
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+.logoContainer{
+    width: 10%;
+}
+.logo{
+    width: 100%;
+}
+.footerIconLogo{
+}
+/* .logoContainer{
+    width: 2%;
+}
+.logo{
+    width: 3%;
+    margin: 0;
+    padding: 0;
+}
+span.logo{
+    color: brown;
+    text-indent: -10000px;
+}*/
+nav a:hover{
+    background-color: grey;
+}
+
+/*Body*/
+.body1{
+    text-align: center;
+}
+.textContent{
+    width: 100%;
+    margin: 30px 0;
+}
+.text{
+    font-size: larger;
+    text-align: center;
+    font-weight: 600;
+}
+.textContent2{
+    width: 100%;
+    margin: 0px 0;
+}
+.text2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.contentImg{
+    width: 80%;
+    margin-top: 20px;
+}
+.borderBottom{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+    box-shadow: 0px 5px 30px 5px #88888833;
+}
+/*body IMG*/
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  margin: 25px 10px;
+}
+.row.center{
+  justify-content: center;
+}
+.projectsContainer{
+font-size: 120%;
+ height: 100%;
+}
+img.medium{
+  border-radius: 0.5rem;
+  max-width: 10rem;
+  width: 100%;
+}
+.menuContentContainer{
+    margin-top: 20px;
+    width: 100%;
+}
+.menuContent{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+.menuContent .menu{
+    margin: 10px auto;
+     width: 50%;
+     padding: 5px 0;
+     text-align: center;
+    border: 2px solid rgba(128, 128, 128, 0.411);
+}
+/*BODY4*/
+.row2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card2{
+  margin: 25px 10px;
+}
+.row2.center2{
+  justify-content: center;
+}
+.projectsContainer2{
+font-size: 120%;
+ height: 100%;
+}
+img.medium2{
+  border-radius: 0.5rem;
+  max-width: 5rem;
+  width: 100%;
+}
+
+
+
+/*SUPPORT*/
+.supportWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.customerCare{
+    width: 80%;
+    margin-top: 20px;
+}
+.supportContainer{
+width: 100%;
+}
+.supportImgContainer{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.supportImgContainer li{
+     list-style-type: none;
+    text-decoration: none;
+}
+.supportImg{
+    width: 100%;
+}
+
+/*PURPLEPAGE*/
+.purpleContentContainer{
+    width: 100%;
+    background-color: rgb(73, 73, 196);
+    text-align: center;
+    color: #fff;
+}
+
+/*FOOTER*/
+.FooterContainer{
+    width: 100%;
+    margin-top: 90px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+}
+/* .FooterContainer1{
+    width: 100%;
+} */
+.FooterWrapper1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.FooterWrapper2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+}
+.footerIconContainer{
+    width: 10%;
+}
+.footerIconWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.firstFooterContent{
+    width: 20%;
+}
+/* .footerIconLogo{
+    width: 80%;
+} */
+.FooterEnglishInnerButton{
+    display: flex;
+}
+.FooterWrapper2 li{
+list-style-type: none;
+text-decoration: none;
+}
+.FooterEnglishButton{
+    border: 2px solid rgb(56, 56, 116);;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+.footerListTitle{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.footerButtonEnglish{
+    margin: 0 50px 0 0;
+}
+.footerIconWrapper{
+
+}
+
+
+
+/*PAGE2*/
+
+.page2PurpleContentContainer{
+    width: 100%;
+    background-color: rgba(245, 237, 222, 0.267);
+    text-align: center;
+    color: black;
+}
+.customerReviewContainer{
+    text-align: center;
+    width: 100%;
+}
+.customerReviewImg{
+    width: 100%;
+    border-radius: 50%;
+}
+.customerReviewImgContainer{
+    width: 10%;
+}
+.customerReviewWrapper2{
+    display: flex;
+    justify-content: center;
+     margin: 90px 0;
+}
+
+.MapContainer{
+    width: 100%;
+    text-align: center;
+}
+.MapWrapper{
+    width: 100%;
+}
+.MapImgContainer{
+    width: 100%;
+     margin: 30px auto;
+}
+.MapImg{
+    width: 30%;
+    margin: 0 auto;
+}
+.awardContainer{
+    width: 100;
+}
+.awardTitleContent{
+    text-align: center;
+}
+.awardContentWrapper{
+    background-color: rgba(51, 23, 80, 0.863);
+    color: #fff;
+}
+.awardContent1{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+}
+.awardContentList{
+     list-style-type: none;
+    text-decoration: none;
+}
+.awardReview{
+    width: 100;
+    background-color: blue;
+}
+.awardReviewWrapper{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.awardContentWrapper2{
+    width: 100%;
+}
+.awardimg{
+    width: 100%;
+    border-radius: 0px;
+}
+
+@media screen and (min-width: 991px){
+.container{
+    /* width: 100%; */
+    /* max-width: 960px; */
+    background-color: #fff;
+    color: black;
+}
+.navContainer{
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 30px; */
+}
+.nav{
+    /* width: 100%; */
+    display: flex;
+     text-align: center;
+     background-color: #fff;
+     color: black;
+}
+.nav2{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    color: black;
+    flex: 1 1 1;
+    border-bottom: 0 solid rgba(128, 128, 128, 0.411);
+}
+nav a{
+    color: black;
+}
+nav a:hover{
+    background-color: #fff;
+    color: black;
+}
+/* .atag{
+    margin: 8px 10px;
+    padding: 0;
+} */
+li{
+    /* font-weight: 20px; */
+    /* font-size: 1.2rem; */
+      margin: 1rem 0px;
+      padding: 3px 5px;
+}
+/* .logo1name{
+color: rgb(56, 56, 116);
+font-size: xx-large;
+font-weight: 600;
+}
+.logo2name{
+color: rgb(56, 56, 116);
+font-size: x-large;
+font-weight: 400;
+margin: 0;
+} */
+.tryButton{
+    background-color: rgb(56, 56, 116);
+    text-align: center;
+    border-radius: 20px;
+}
+.tryinnerButton{
+    color: #fff;
+    padding: 5px 10px;
+}
+.tryButton:hover{
+    background-color: rgb(56, 56, 116);
+    text-align: center;
+    border-radius: 20px;
+}
+.body1{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 0 7rem 3rem;
+    text-align: left;
+}
+.contentContainer1{
+    width: 70%;
+    padding: 30px 0px;
+    /* background-color: red; */
+}
+.content1{
+    width: 100%;
+    color: rgb(56, 56, 116);
+    font-weight: 600;
+    font-size: xx-large;
+    /* padding: 30px 0px 0px 0; */
+    /* background-color: red; */
+}
+.content2{
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.content3{
+    width: 100%;
+    font-weight: 600;
+}
+.content4{
+    width: 30%;
+    padding: 20px 20px;
+    color: #fff;
+    margin-top: 30px;
+     background-color: rgb(56, 56, 116);
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.171);
+}
+.contentImg{
+    width: 90%;
+    margin-top: 20px;
+}
+.menuContentContainer{
+width: 100%;
+margin-top: 50px;
+}
+.menuContent{
+    display: flex;
+    margin: 0 30px;
+    border: 2px solid rgb(56, 56, 116);
+    border-radius: 7px;
+}
+.menuContent .menu{
+    margin: 10px auto;
+     padding: 5px 0;
+     text-align: center;
+    border: 0px solid rgba(255, 255, 255, 0);
+}
+.menu.first{
+    color: #fff;
+    font-weight: 900;
+    background-color: rgb(56, 56, 116);
+    margin: 20 0;
+}
+.body2{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 0 7rem 3rem;
+    text-align: left;
+}
+.contentContainer2{
+    width: 70%;
+    padding: 30px 0px;
+    /* background-color: red; */
+}
+.content2a{
+    margin-top: 70px;
+    width: 100%;
+    color: rgb(56, 56, 116);
+    font-weight: 600;
+    font-size: xx-large;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.418);
+}
+.content2b{
+    width: 100%;
+    color: rgb(56, 56, 116);
+    font-weight: 600;
+    font-size: xx-large;
+     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.418);
+}
+.content3{
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 600;
+     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.418);
+}
+.content3b{
+    width: 100%;
+    font-weight: 600;
+     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.418);
+}
+.contentImg2{
+    width: 80%;
+    margin-top: 20px;
+}
+.body3{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 3rem 7rem 0;
+    text-align: right;
+}
+.contentContainer2{
+    width: 70%;
+    padding: 30px 0px;
+    /* background-color: red; */
+}
+.content21a{
+    margin-top: 70px;
+    width: 100%;
+    color: rgb(56, 56, 116);
+    font-weight: 600;
+    font-size: xx-large;
+}
+.content31{
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 600;
+
+}
+.content31b{
+    width: 100%;
+    font-weight: 600;
+
+}
+.body4{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 7rem 3rem;
+    text-align: left;
+}
+/*SUPPORT*/
+.supportContainer{
+width: 100%;
+margin-bottom: 90px;
+}
+.supportWrapper{
+    width: 100%;
+}
+.customerCareContainer{
+    width: 30%;
+}
+.customerCare{
+    width: 100%;
+    margin-top: 80px;
+    border-radius: 50%;
+}
+.supportImgContainer{
+    width: 15%;
+     text-align: center;
+     margin: 0;
+}
+.supportImg{
+    width: 60%;
+}
+.customerCareContentContainer{
+    width: 50%;
+}
+.customerCareContent{
+   width: 90%;
+   margin: 13rem 30px 0 0;
+}
+.customerContent1{
+    font-size: xx-large;
+}
+.customerContent2{
+    margin-top: 10px;
+    font-size: large;
+}
+.customerContent2b{
+    font-size: large;
+}
+
+/*PURPLEPAGE*/
+.purpleContentWrapper{
+    width: 100%;
+    padding: 100px 0;
+}
+.purpleContent1{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.514);
+}
+.purpleContent2{
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.514);
+}
+.purpleContent3{
+    font-size: large;
+    font-weight: 500;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: rgba(51, 23, 80, 0.863);
+     box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.171);
+}
+.purpleContent3Container{
+    width: 20%;
+    margin: 0 auto;
+}
+
+/*FOOTER*/
+.FooterWrapper1, .FooterWrapper2{
+    width: 95%;
+    margin: 0 auto;
+}
+.FooterContainer1{
+    margin: 30px 0;
+}
+.FooterlogoImg{
+}
+.footerIconLogo{
+    width: 80%;
+    /* display: flex; */
+}
+.logoContainerFooter{
+    width: 10%;
+}
+.firstFooterContent{
+    margin-top: 30px;
+    width: 30%;
+}
+.FooterCon1{
+    font-size: larger;
+    font-weight: 500;
+}
+.FooterCon2{
+    font-size: large;
+    font-weight: 300;
+    margin-top: 30px;
+    color: gray;
+}
+.FooterCon3{
+    font-size: large;
+    font-weight: 300;
+    margin-top: 90px;
+    color: gray;
+}
+.FooterCon4{
+    font-size: x-large;
+    font-weight: 300;
+    margin-top: 20px;
+    color: gray;
+}
+.footerList{
+    color: gray;
+}
+.copyRightFooter{
+    width: 100%;
+}
+.innerCoppyRightFooter{
+    margin: 50px 0 30px 50px;
+    font-size: larger;
+    color: gray;
+}
+
+
+/*PAGE2*/
+
+.page2PurpleContent{
+  font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.514);
+}
+.purpleContent3{
+    color: #fff;
+}
+.customerReviewWrapper{
+    font-weight: 400;
+    font-size: x-large;
+}
+.customerReviewNameContainer{
+    margin-top: 30px;
+    text-align: left;
+}
+.customerReviewW{
+    margin: 90px 0;
+}
+.customerReviewName{
+    font-weight: 600;
+}
+.MapImgContainer{
+    width: 100%;
+     margin: 70px auto;
+}
+.MapImg{
+    width: 50%;
+    margin: 0 auto;
+}
+.MapContent{
+    width: 100%;
+}
+.MapContent1{
+    font-size: xx-large;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.MapContent2{
+    font-size: large;
+    font-weight: 400;
+    color: gray;
+}
+.MapWrapper{
+    margin: 100px 0;
+    padding: 70px 0;
+}
+.MapContainer{
+    background-color: whitesmoke;
+}
+.awardTitleContent{
+    margin: 40px 0;
+}
+.awardContentText{
+    margin-top: 30px;
+}
+.awardContentWrapper{
+    width: 100%;
+    padding: 50px 0 100px 0;
+}
+.awardContent1{
+    padding: 0 30px;
+}
+.mark{
+    margin: 0 15px 0 0;
+}
+.awardTitleContentTitle{
+    font-size: xx-large;
+    font-weight: 500;
+}
+.awardContentList{
+
+}
+.awardContentCard{
+    margin: 30px;
+}
+.awardContenttext1{
+    font-size: xx-large;
+}
+.awardReviewWrapper{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 2000px;
+    left: 22%;
+    box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.171);
+
+}
+.awardContainer{
+    margin-top: 100px;
+}
+.marginForCards{
+    margin-top: 300px;
+}
+.pageTwoimage{
+    width: 100;
+    margin: 0 20px;
+}
+.bodyContentContainer{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.bodyTopButton{
+    width: 24%;
+    text-align: center;
+    color: #fff;
+    margin: 50px auto;
+    border-radius: 50px;
+    background-color: rgb(51, 23, 80)
+}
+.bodyInnerButton{
+padding: 25px 20px;
+}
+.bodyText1{
+    font-size: 4rem;
+    width: 100%;
+    color: rgba(51, 23, 80, 0.863);
+    font-weight: 900;
+}
+.bodyText2{
+    font-size: 1.7rem;
+    width: 100%;
+    color: grey;
+    font-weight: 400;
+}
+.bodyContainer{
+margin: 0 0 100px 0;
+}
+.pageSelection{
+    color: grey;
+    margin: 5px 20px;
+}
+.pageSelectionLink{
+    list-style-type: none;
+    text-decoration: none;
+}
+.formWrapperContainer{
+    width:50%;
+    background-color: #fff;
+    box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.171);
+
+}
+.FormContactList{
+     display: flex;
+     justify-content: space-between;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.FormContactList1{
+    font-size: xx-large;
+    margin: 30px 0;
+}
+.FormContactList2{
+    color: grey;
+}
+.FormContactListWrapper{
+margin: 0 30px;
+}
+.marginForm{
+    margin: 40px 30px;
+}
+.formWrapperContainerForm{
+    margin: 10%;
+    width: 50%;
+}
+.input1{
+    padding: 20px 40px;
+    margin: 0 3px;
+    border-radius: 5px;
+    outline: none;
+}
+.input2{
+    padding: 20px 157px;
+    margin: 0 3px;
+    border-radius: 5px;
+    outline: none;
+}
+.FormButton{
+    text-align: center;
+    color: #fff;
+    background-color: rgb(51, 23, 80);
+    width: 100;
+    padding: 20px 20px;
+    margin: 30px 0px 30px 150px;
+    border-radius: 50px;
+}
+.marginContForm{
+    margin: 10px 0;
+}
+}
+/*PAGE2*/
+.pageSelectionContainer{
+    display: flex;
+    justify-content: center;
+}
+.formContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.FormContactList{
+     display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+.formContainerContainer{
+    width: 100%;
+}
+.FormContactListWrapper{
+    width: 100%;
+}
+.FormList{
+    list-style-type: none;
+    text-decoration: none;
+    color: gray;
+}
+
+.formInput1{
+    display: flex;
+    justify-content: space-between;
+}
+.FormCountry{
+    color: black;
+}
